@@ -4,7 +4,7 @@ import { FaFacebook, FaTwitch, FaPinterest, FaVimeoV, FaUserSecret } from 'react
 import background from '../src/material/kioto16.jpg';
 import profilePhoto from '../src/material/profilePhoto.png';
 
-const FacebookIcon = () => {
+const PerfilC= () => {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
 
@@ -98,4 +98,4 @@ const FacebookIcon = () => {
   );
 };
 
-export default FacebookIcon;
+export default PerfilC;
